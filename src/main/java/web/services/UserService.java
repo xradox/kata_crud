@@ -15,6 +15,10 @@ public class UserService {
 
     public UserService(EntityManagerFactory entityManagerFactory) {
         manager = entityManagerFactory.createEntityManager();
+        for (int i = 0; i < 5; i++) {
+            User user = new User("Name" + i, "LastName" + i, 1999 + i);
+            saveUser(user);
+        }
     }
 
     public List<User> getAllUsers() {

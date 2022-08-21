@@ -23,8 +23,7 @@ public class User {
     public User() {
     }
 
-    public User(int id, String firstName, String lastName, int yearOfBirth) {
-        this.id = id;
+    public User(String firstName, String lastName, int yearOfBirth) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.yearOfBirth = yearOfBirth;
