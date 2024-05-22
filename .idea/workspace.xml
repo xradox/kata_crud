@@ -9,13 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4409c365-43d3-40f2-8c29-0937bd32cb25" name="Changes" comment="added 5 users when app inits">
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/DAO/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/web/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/config/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/config/AppInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/config/AppInit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/services/UserService.java" afterDir="false" />
+    <list default="true" id="4409c365-43d3-40f2-8c29-0937bd32cb25" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/controllers/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +26,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/PL-001" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JpbToolWindowState">
@@ -70,7 +70,8 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -198,6 +199,7 @@
       <option name="presentableId" value="Default" />
       <updated>1660880852431</updated>
       <workItem from="1660880853614" duration="22853000" />
+      <workItem from="1716410156600" duration="548000" />
     </task>
     <task id="LOCAL-00001" summary="done">
       <created>1661060135542</created>
@@ -213,7 +215,28 @@
       <option name="project" value="LOCAL" />
       <updated>1661082843646</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added 5 users when app inits">
+      <created>1716410249466</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716410249466</updated>
+    </task>
+    <task id="LOCAL-00004" summary="text">
+      <created>1716410387509</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716410387509</updated>
+    </task>
+    <task id="LOCAL-00005" summary="textPL-002">
+      <created>1716410437233</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716410437233</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +256,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="done" />
     <MESSAGE value="added 5 users when app inits" />
-    <option name="LAST_COMMIT_MESSAGE" value="added 5 users when app inits" />
+    <MESSAGE value="text" />
+    <MESSAGE value="textPL-002" />
+    <option name="LAST_COMMIT_MESSAGE" value="textPL-002" />
   </component>
 </project>
