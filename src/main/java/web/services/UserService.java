@@ -19,6 +19,7 @@ public class UserService {
     }
 
     public User getUser(int id) {
+        System.out.println();
         return  dao.getUser(id);
     }
 
