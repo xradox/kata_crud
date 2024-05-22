@@ -56,6 +56,7 @@ public class AppConfig implements WebMvcConfigurer {
     @Override
     public void configureViewResolvers(ViewResolverRegistry registry) {
         System.out.println("PL-002");
+        int i = 1;
         ThymeleafViewResolver viewResolver = new ThymeleafViewResolver();
         viewResolver.setTemplateEngine(templateEngine());
         registry.viewResolver(viewResolver);
