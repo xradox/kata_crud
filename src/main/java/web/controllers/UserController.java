@@ -18,6 +18,7 @@ public class UserController {
 
     @GetMapping
     public String getUsers(Model model) {
+        System.out.println();
         model.addAttribute("users", service.getAllUsers());
         return "index";
     }
